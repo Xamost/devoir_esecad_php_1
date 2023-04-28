@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*
+{
+	margin: 0 ;
+	padding: 0 ;
+}
+
+body
+{
+	background: #121640 ;
+	color: #d6d6d6 ;
+	font-family: 'Ubuntu', sans-serif;;
+	font-weight: 700;
+}
+
+form 
+{
+	position:absolute;
+	top:5rem;
+	left:25%;
+	width:50%;
+	display:flex;
+	flex-direction: column;
+	background: #3e48b3;
+	border-radius: 2rem;
+	padding:2rem 2.5rem;
+}
+
+input, label, select
+{
+	margin:0.5em 0;
+}
+
+input, select{
+	background-color: #121640;
+	color:#d6d6d6;
+	border: none;
+	border-radius: 3px;
+	padding:5px;
+}
+
+.res {
+	margin: 0.25em 0;
+}
+
+.error{
+	color: #f28100;
+}
